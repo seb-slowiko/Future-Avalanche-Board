@@ -5,7 +5,7 @@ puts "\n------------------------------------------------------------------------
 puts "Importing Components..."
 puts "---------------------------------------------------------------------------------------------------------\n"
 
-source ./import/components/IMA_CFG1/top_level_pf_avalanche_es_rv32ima_cfg1.tcl
+source ./import/components/IMC_CFG1/top_level_pf_avalanche_rv32imc_cfg1.tcl
 
 puts "\n---------------------------------------------------------------------------------------------------------"
 puts "Components Imported."
@@ -21,6 +21,7 @@ puts "--------------------------------------------------------------------------
 import_files -io_pdc ./import/constraints/io/io_constraints.pdc
 import_files -sdc ./import/constraints/io_jtag_constraints.sdc
 import_files -fp_pdc ./import/constraints/fp/ccc_fp.pdc
+
 
 # #Associate SDC constraint file to Place and Route tool
 organize_tool_files -tool {PLACEROUTE} \
