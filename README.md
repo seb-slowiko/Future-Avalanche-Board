@@ -1,10 +1,10 @@
 ## Future Avalanche Board Mi-V Sample Designs
 
 This repository contains Libero projects for the following soft core RISC-V processors:
+* MiV_RV32IMC
 * MIV_RV32IMA_L1_AHB
 * MIV_RV32IMA_L1_AXI
 * MiV_RV32IMAF_L1_AHB
-* MiV_RV32IMC
 
 FlashPro Express projects containing pre-generated programming files are also available for each of the designs.
 
